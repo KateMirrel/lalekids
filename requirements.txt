@@ -1,6 +1,5 @@
 python-telegram-bot==13.13
 urllib3==1.26.15
-apscheduler==3.10.4
 setuptools==69.0.3
 certifi==2023.11.17
 chardet==5.2.0
