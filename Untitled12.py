@@ -13,7 +13,7 @@ from telegram.ext import Updater, CommandHandler, CallbackQueryHandler, Callback
 
 # ================= НАСТРОЙКИ =================
 
-TOKEN = "8077306370:AAGKhdnGOFX2a76sajf-gPebxVOD7iyT3vY"
+TOKEN = os.environ.get("TOKEN")
 MANAGER_USERNAME = "katemirrel"
 
 logging.basicConfig(
